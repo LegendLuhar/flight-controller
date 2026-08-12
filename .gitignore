@@ -1,0 +1,14 @@
+# KiCad local history
+.history/
+
+# KiCad user-specific settings
+*.kicad_prl
+
+# KiCad cache
+fp-info-cache
+
+# KiCad backup folders
+*-backups/
+
+# macOS
+.DS_Store
