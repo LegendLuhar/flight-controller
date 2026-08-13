@@ -10,5 +10,9 @@ fp-info-cache
 # KiCad backup folders
 *-backups/
 
+# KiCad temp lock files
+*.lck
+
 # macOS
 .DS_Store
+
