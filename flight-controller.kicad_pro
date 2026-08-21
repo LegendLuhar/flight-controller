@@ -416,13 +416,17 @@
         "uuid": "213c91a0-fa25-4571-8907-77697f46ecf7"
       }
     ],
-    "used_designators": "R1,C1-7,#PWR1-5,U1",
+    "used_designators": "#PWR6,#PWR9,J1",
     "variants": []
   },
   "sheets": [
     [
       "213c91a0-fa25-4571-8907-77697f46ecf7",
       "flight-controller"
+    ],
+    [
+      "66794036-3577-4bd0-bf73-ffb165d0b138",
+      "MCU-Peripherals"
     ]
   ],
   "text_variables": {},
