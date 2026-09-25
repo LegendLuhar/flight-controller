@@ -416,7 +416,7 @@
         "uuid": "213c91a0-fa25-4571-8907-77697f46ecf7"
       }
     ],
-    "used_designators": "C11-12,R3-5,#PWR13-17,J2",
+    "used_designators": "IC2,J3-4,D1-2,#PWR31-36,C18-19,JP1,R9-12",
     "variants": []
   },
   "sheets": [
@@ -427,6 +427,10 @@
     [
       "66794036-3577-4bd0-bf73-ffb165d0b138",
       "MCU-Peripherals"
+    ],
+    [
+      "a754bf92-b73b-4461-8014-2d7a213648b8",
+      "Sensors"
     ]
   ],
   "text_variables": {},
