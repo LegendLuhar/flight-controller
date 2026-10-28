@@ -3313,6 +3313,12 @@
 		(uuid "27ac82cc-b9a9-4d30-8d8d-596d39c66636")
 	)
 	(junction
+		(at 236.22 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2aa1e4e1-468d-4ec0-85b9-b8655bcfde44")
+	)
+	(junction
 		(at 57.15 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3383,6 +3389,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "93142b93-074f-4673-92ed-4f665d177308")
+	)
+	(junction
+		(at 236.22 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "978769f7-a3a6-4f2f-b164-9b50718f8e97")
 	)
 	(junction
 		(at 153.67 41.91)
@@ -3644,7 +3656,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 142.24) (xy 236.22 144.78)
+			(xy 236.22 142.24) (xy 236.22 149.86)
 		)
 		(stroke
 			(width 0)
@@ -3721,6 +3733,16 @@
 			(type default)
 		)
 		(uuid "21b59641-fb74-4604-81c1-cf7272e8786c")
+	)
+	(wire
+		(pts
+			(xy 236.22 149.86) (xy 227.33 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2292ed0a-e290-4b3c-9869-38dbecbce3e7")
 	)
 	(wire
 		(pts
@@ -3941,6 +3963,16 @@
 			(type default)
 		)
 		(uuid "4d9b19f6-f934-48e8-9fcb-1898e824b42c")
+	)
+	(wire
+		(pts
+			(xy 245.11 149.86) (xy 236.22 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ff00761-cc93-4315-9688-1169eedff187")
 	)
 	(wire
 		(pts
@@ -4221,6 +4253,16 @@
 			(type default)
 		)
 		(uuid "8d549bd8-272e-4061-8051-856c85cb2c23")
+	)
+	(wire
+		(pts
+			(xy 236.22 149.86) (xy 236.22 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f29f8f2-a9eb-4f61-b6b5-2defeb1919cd")
 	)
 	(wire
 		(pts
@@ -4821,6 +4863,16 @@
 			(type default)
 		)
 		(uuid "f9487bd9-ff80-40e9-a170-b58c4bfe3716")
+	)
+	(wire
+		(pts
+			(xy 245.11 142.24) (xy 236.22 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc3c9078-419c-416c-9f27-6b87ee633150")
 	)
 	(wire
 		(pts
@@ -6967,6 +7019,162 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 245.11 149.86 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52cea578-0d04-493d-864e-8458aa9392f7")
+		(property "Reference" "TP15"
+			(at 248.412 144.78 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 248.412 147.32 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 245.11 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 245.11 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "22555e1e-36e2-4a0d-92a2-034b7e1131ef")
+		)
+		(instances
+			(project "flight-controller"
+				(path "/213c91a0-fa25-4571-8907-77697f46ecf7"
+					(reference "TP15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 245.11 142.24 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a03946f-48ea-4857-b8e7-8b22095c6973")
+		(property "Reference" "TP14"
+			(at 248.412 137.16 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 248.412 139.7 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 245.11 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 245.11 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2b3c70b1-d087-40a9-9e43-1dc20195e98a")
+		)
+		(instances
+			(project "flight-controller"
+				(path "/213c91a0-fa25-4571-8907-77697f46ecf7"
+					(reference "TP14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 251.46 97.79 0)
 		(unit 1)
@@ -7206,7 +7414,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 236.22 144.78 0)
+		(at 236.22 153.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7216,7 +7424,7 @@
 		(dnp no)
 		(uuid "6f06cd78-00e5-41eb-9d91-b5a25c4951d6")
 		(property "Reference" "#PWR056"
-			(at 236.22 151.13 0)
+			(at 236.22 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7227,7 +7435,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 236.22 148.844 0)
+			(at 236.22 157.734 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7237,7 +7445,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 144.78 0)
+			(at 236.22 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7248,7 +7456,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 144.78 0)
+			(at 236.22 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7259,7 +7467,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 236.22 144.78 0)
+			(at 236.22 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10186,6 +10394,83 @@
 			(project "flight-controller"
 				(path "/213c91a0-fa25-4571-8907-77697f46ecf7"
 					(reference "TP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 227.33 149.86 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f3dd23db-5be0-41fd-9fc1-20552d2d1377")
+		(property "Reference" "TP13"
+			(at 224.028 144.78 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 224.028 147.32 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 227.33 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 227.33 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3f44f008-1a7d-4b70-921a-b2259f26c133")
+		)
+		(instances
+			(project "flight-controller"
+				(path "/213c91a0-fa25-4571-8907-77697f46ecf7"
+					(reference "TP13")
 					(unit 1)
 				)
 			)
